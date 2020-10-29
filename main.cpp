@@ -3,7 +3,7 @@
 std::string nn{}; int chc{}, q1{}, q2{}, q3{};
 void pes()
 {
-	system("cls"); std::cout << "Welcome on xQuiz, " + nn + "\nin the test you will get a few questions about xxx, if you answer are correct you will win otherwise you can try again.\nif you want continue to test vote 1\n  Your choice: "; std::cin >> chc;
+	system("cls"); std::cout << "Welcome on xxxQuiz, " + nn + "\nin the test you will get a few questions about xxx, if you answer are correct you will win otherwise you can try again.\nif you want continue to test vote 1\n  Your choice: "; std::cin >> chc;
 	switch (chc)
 	{
 		system("cls");
@@ -29,6 +29,6 @@ void pes()
 	}
 }
 int main()
-{ SetConsoleTitleA("xQuiz");
+{ SetConsoleTitleA("xxxQuiz");
 	std::cout << "select nickname: "; std::cin >> nn; pes();
 }
